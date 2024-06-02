@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-import tensorflow as tf
+
 class_pickle=open('neural_network.pickle','rb')
 model=pickle.load(class_pickle)
 class_pickle.close()
